@@ -1,0 +1,13 @@
+devam et:
+
+ai_projects/license_plate_recognition/license_plate_reading.py
+
+bitti:
+
+ai_projects/pose_estimation_person/main_using_posemodule.py
+ai_projects/license_plate_recognition/main.py
+ai_projects/hand_finger_counting/main.py
+ai_projects/object_classification/main.py
+ai_projects/object_classification/main.py  - flowers yapıldı
+
+

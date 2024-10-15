@@ -1,0 +1,19 @@
+Hazırlanacak dosyalar:
+
+Dataset
+.data/______.yaml dosyası
+.cfg/training/______.yaml dosyası
+train.py
+
+
+Cuda: 11.8
+
+pytorch:
+pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --extra-index-url https://download.pytorch.org/whl/cu118
+
+tensorflow:
+ pip install tensorflow==2.7.0
+
+
+pip install protobuf==3.20.*
+set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python

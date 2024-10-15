@@ -1,0 +1,13 @@
+.documents/*
+nlp/datasets/*
+nlp/results/*
+scripts/data/*
+*.png
+*.jpg
+*.jpeg
+*h5
+*.pyc
+*mp4
+*/data
+*/results
+*/ai_training

@@ -1,0 +1,4 @@
+data:
+  input_file: "./data/create_video.mp4"
+  output_file: "./results/"
+  cam_device: 0

@@ -1,0 +1,10 @@
+data:
+  input_file: "./data/person_video2.mp4"
+  output_file: "./results/result_pose_person_video.mp4"
+  codec: "mp4v"
+  fps: 20.0
+
+
+
+
+

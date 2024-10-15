@@ -1,0 +1,12 @@
+data:
+  input_file: "./data/license_plate_box_images"
+  output_file: "./results/result_license_plate_box_images"
+
+
+model_predict:
+  model_path: "C:/Users/selca/selcanatak/.artificial-intelligence/ai_training/sa/models/yolov7-od/yolov7/runs/train/yolov7_custom/weights/best.pt"
+  secondary_script_path: "C:/Users/selca/selcanatak/.artificial-intelligence/ai_training/sa/models/yolov7-od/yolov7/using_yolov7_od_model.py"
+  od_result_path: "C:/Users/selca/selcanatak/.artificial-intelligence/ai_projects/license_plate_recognition/results/1"
+  result_path: "C:/Users/selca/selcanatak/.artificial-intelligence/ai_projects/license_plate_recognition/results/1"
+  python_exe_path: r'C:\Users\selca\selcanatak\.artificial-intelligence\venv\Scripts\python.exe'
+  images_path: "C:/Users/selca/selcanatak/.artificial-intelligence/ai_projects/license_plate_recognition/data/od_test_images"

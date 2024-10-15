@@ -1,0 +1,3 @@
+
+osr kütüphanesi için:
+https://tesseract-ocr.github.io/tessdoc/Downloads.html
