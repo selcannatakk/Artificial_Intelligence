@@ -10,8 +10,10 @@ ai_projects/license_plate_recognition/data/*
 ai_projects/license_plate_recognition/results/*
 ai_projects/object_classification/data/*
 ai_projects/object_classification/results/*
+ai_projects/object_classification/models/*
 ai_projects/pose_estimation_person/data/*
 ai_projects/pose_estimation_person/results/*
+streamlit_predict_app/models/*
 
 *.png
 *.jpg

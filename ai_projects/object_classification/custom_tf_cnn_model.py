@@ -28,6 +28,9 @@ class SimpleNN(tf.keras.Model):
         self.output_layer = tf.keras.layers.Dense(num_classes, activation='softmax')
 
     def call(self, inputs):
+        x = self.conv1(inputs)
+        x = self.maxpool1(x)
+
         x = self.flatten(inputs)
 
         x = self.dense1(x)
