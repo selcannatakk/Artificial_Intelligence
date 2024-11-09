@@ -13,6 +13,10 @@ ai_projects/object_classification/results/*
 ai_projects/object_classification/models/*
 ai_projects/pose_estimation_person/data/*
 ai_projects/pose_estimation_person/results/*
+ai_projects/metro_safe_track/data/*
+ai_projects/metro_safe_track/result_video_images/*
+ai_projects/metro_safe_track/results/*
+
 streamlit_predict_app/models/*
 
 *.png

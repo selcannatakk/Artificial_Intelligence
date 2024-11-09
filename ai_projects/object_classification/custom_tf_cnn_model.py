@@ -16,7 +16,6 @@ class SimpleNN(tf.keras.Model):
         self.batch_norm1 = tf.keras.layers.BatchNormalization()
         self.dropout1 = tf.keras.layers.Dropout(0.3)
 
-
         self.dense2 = tf.keras.layers.Dense(128, activation='relu')
         self.batch_norm2 = tf.keras.layers.BatchNormalization()
         self.dropout2 = tf.keras.layers.Dropout(0.3)

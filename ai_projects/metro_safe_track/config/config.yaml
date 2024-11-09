@@ -1,0 +1,20 @@
+data:
+  input_file: "./data/person_box_images"
+  output_file: "./results/person_box_images"
+
+
+model:
+  model_path: "C:/Users/selca/selcanatak/.artificial-intelligence/ai_training/sa/models/yolov7_od/yolov7/yolov7x.pt"
+
+
+model_predict2:
+  secondary_script_path: "C:/Users/selca/selcanatak/.artificial-intelligence/ai_training/sa/models/yolov7_od/yolov7/using_yolov7_od_model.py"
+  od_result_path: "C:/Users/selca/selcanatak/.artificial-intelligence/ai_projects/metro_safe_track/results/1_person"
+  result_path: "C:/Users/selca/selcanatak/.artificial-intelligence/ai_projects/metro_safe_track/results/1_person"
+  python_exe_path: r'C:\Users\selca\selcanatak\.artificial-intelligence\venv\Scripts\python.exe'
+  images_path: "C:/Users/selca/selcanatak/.artificial-intelligence/ai_projects/metro_safe_track/data/images"
+
+model_predict:
+  secondary_script_path: "C:/Users/selca/selcanatak/.artificial-intelligence/ai_training/sa/models/yolov7_od/yolov7/using_yolov7_od_model_for_image.py"
+  python_exe_path: r'C:\Users\selca\selcanatak\.artificial-intelligence\venv\Scripts\python.exe'
+
